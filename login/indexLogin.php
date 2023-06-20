@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar bg-dark border-bottom border-bottom-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="../img/formiga_logo.png" alt="logo" width="50">
@@ -70,34 +70,7 @@
 
     <footer>
         <div class="row pt-1 footer pb-5">
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 text-left text-md-center mt-4">
-                <a href="https://www.bartofil.com.br" target="_blank">
-                    <img src="../img/novo-site.png" class="w-50" alt="site"></a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-4">
-                <h3>Escritório Central<br>Ponte Nova/MG</h3>
-                Bartofil Distribuidora SA<br>
-                Rua Antonio Frederico Ozanan, 255<br>
-                Centro - CEP: 35 430 029<br>
-                Ponte Nova/MG<br>
-                31 3819 2000
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-4">
-                <h3>Centro de Distribuição<br>Ponte Nova/MG</h3>
-                Bartofil Distribuidora SA<br>
-                CNPJ 23.797.376/0001-74<br>
-                Av. Francisco Pena, 71<br>
-                Bairro Ana Florência - CEP: 35 432 035<br>
-                Ponte Nova/MG
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 mt-4">
-                <h3>Centro de Distribuição<br>Feira de Santana/BA</h3>
-                Bartofil Distribuidora SA<br>
-                CNPJ 23.797.376/0027-03<br>
-                Estrada Camundongo, 620 - BR 324 Km 531,4<br>
-                Bairro Humildes - CIS - CEP 44 135 000<br>
-                Feira de Santana/BA
-            </div>
+           
         </div>
     </footer>
 </body>
