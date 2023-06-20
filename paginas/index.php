@@ -54,9 +54,9 @@ $logado = $_SESSION['user'];
         </div>
         <div class="central">
             <div class="texto-sobre">
-                <h2>HI, <span style="color: black;">I'm Lucas!</span>
+               <h2>Hello there,
+                    <br><span style="color: black;">I'm Lucas!</span>
                     <br>web developer
-                </h2>
                 <div id="redes-sociais">
                     <a href=""><img class="perfil" id="linkedin" src="../img/icons-linkedin-desktop-social-media-linked-in-text-trademark-logo.png" alt=""></a>
                     <a href=""><img class="perfil" src="../img/github.png" alt=""></a>
