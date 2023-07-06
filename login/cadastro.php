@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 try {
-    $stmt = $conn->prepare("INSERT INTO usuarios (nome, senha)
+    $stmt = $conn->prepare("INSERT INTO usuarios_portifolio (nome, senha)
         VALUES (:nome, :senha)");
     $stmt->bindParam(':nome', $novoNome);
     $stmt->bindParam(':senha', $novaSenha);

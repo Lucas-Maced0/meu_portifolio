@@ -74,14 +74,19 @@ header li a:hover {
     font-size: 22px;
 }
 
-.card{
+.card {
     transition: 0.4s;
     height: 20vh;
 }
 
-.card .img{
-    height: 18vh;
+.card .img {
+    height: 19.5vh;
     padding: 2px;
+
+}
+
+.card .img-ia {
+    width: 10vw;
 }
 
 .link-projetos {
@@ -89,7 +94,7 @@ header li a:hover {
     color: black;
 }
 
-.card:hover{
+.card:hover {
     opacity: 0.4;
     cursor: pointer;
 }

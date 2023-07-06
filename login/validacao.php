@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $senha = md5(validaInput($_POST['senha']));
 }
 
-$sql = "SELECT * FROM usuarios WHERE nome = '$nome' AND senha = '$senha'";
+$sql = "SELECT * FROM usuarios_portifolio WHERE nome = '$nome' AND senha = '$senha'";
 
 try {
     $selecionar = $conn->prepare($sql);

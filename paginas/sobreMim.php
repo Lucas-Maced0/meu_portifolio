@@ -19,10 +19,10 @@
       <section class="module parallax parallax-1">
         <header>
           <ul class="menu">
-            <li><a href="./index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="./projetos.php">My Projects</a></li>
             <li id="voltar">
-              <a href="./index.php"><i class="fa fa-arrow-left"></i>Back</a>
+              <a href="../index.php"><i class="fa fa-arrow-left"></i>Back</a>
             </li>
           </ul>
         </header>
