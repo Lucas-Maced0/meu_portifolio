@@ -19,7 +19,7 @@ async function valida(e) {
   formData.append("nome", NOME);
   formData.append("senha", SENHA);
 
-  await fetch("validacao.php", {
+  await fetch("../login/validacao.php", {
     method: "POST",
     mode: "cors",
     body: formData,
@@ -27,7 +27,7 @@ async function valida(e) {
     response.json().then(function (data) {
       if (data.msg == "Acesso permitido") {
         location.href =
-          "http://localhost/Projetos/meu_portifolio/paginas/index.php";
+          "http://localhost/projetos/meu_portifolio/index.php";
       } else {
         alert("Acesso negado!");
       }
@@ -50,14 +50,14 @@ async function cadastra(e) {
   formData1.append("nomeM", NOME_MODAL);
   formData1.append("senhaM", SENHA_MODAL);
 
-  await fetch("cadastro.php", {
+  await fetch("../login/cadastro.php", {
     method: "POST",
     mode: "cors",
     body: formData1,
   }).then((response) => {
     response.json().then(function (data) {
       if (data.msg == "Usuário cadastrado com sucesso!") {
-        location.href = "http://localhost/Projetos/meu_portifolio/paginas/index.php";
+        location.href = "http://localhost/projetos/meu_portifolio/index.php";
       } else {
         alert("Erro!!!");
       }
